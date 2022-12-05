@@ -3,32 +3,13 @@
 	text-align: center;
 	line-height: 2.688rem;
 	background-color: var(--secondary-color);
-}
+} 
 
-@media screen and (max-width: 768px) {
-	.header {
-		background: blue;
-	}
-}
-
-nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	padding: 0.5rem 1.5rem;
-	/* font-family: cursive;  */
-	
-}
-
-.logo {
+ul {
 	position: relative;
-	top: 0rem;
-	left: -3rem;
-	font-family:'Courier New', Courier, monospace;
-	font-size: 30px;
-	font-weight: 600;
-	border: none;
-	z-index: 1;
+	display: flex;
 }
 
-
+nav ul li a {
+	max-width: 150;
+}
