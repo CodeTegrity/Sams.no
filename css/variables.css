@@ -1,5 +1,5 @@
 :root {
 	--primary-color: 	hsl(207, 75%, 12%);
-	--secondary-color: white;
+	--secondary-color: hsl(347, 39%, 95%);
 	--shadow-color: hsl(207, 75%, 22%);
 }

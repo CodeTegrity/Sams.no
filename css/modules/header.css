@@ -5,11 +5,92 @@
 	background-color: var(--secondary-color);
 } 
 
+@media screen and (max-width: 768px) {
+	.header {
+		background: blue;
+	}
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.5rem 1.5rem;
+	z-index: 20;
+	
+}
+
+.logo {
+	position: relative;
+	top: 0rem;
+	left: -3rem;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 1.875rem;
+	font-weight: 600;
+	border: none;
+	z-index: 1;
+}
+
 ul {
 	position: relative;
 	display: flex;
+	/* gap: 10px; */
+	
 }
 
 nav ul li a {
-	max-width: 150;
+	max-width: 150px;
+	height: 2.5rem;
+	line-height: 2.688rem;
+	margin: 0.5rem;
+	padding: 0 1.375rem;
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000;
+	/* overflow: hidden; */
+}
+
+nav ul li a:hover{
+	background-color: var(--primary-color);
+	color: hsl(0, 0%, 100%);
+	box-shadow: 3px 6px 11px var(--shadow-color);
+	transition: all ease 0.2s;
+	border-radius: 0.5rem;
+}
+
+.highlight {
+	position: relative;
+	left: 45%;
+	font-size: 40px;
+	color: white;
+
+}
+
+.main-login {
+	position: relative;
+	left: 3rem;
+	width: 5rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: #fff;
+	box-shadow: 0.113rem 0.125rem 0.35rem var(--shadow-color);
+	text-transform: uppercase;
+	resize: none;
+	text-align: center;
+	overflow:hidden;
+	text-overflow: ellipsis;
+  	white-space: nowrap
+}
+
+.main-login:hover {
+	background-color: var(--shadow-color);
+	box-shadow: 0.113rem 0.125rem 0.45rem hsl(207, 75%, 22%);
+	transition: all ease 0.3s;
+	transform: translateY(-7px);
 }
