@@ -4,3 +4,15 @@ body {
 	background: hsl(206, 74%, 15%);
 	z-index: 10;
 }
+
+p {
+	width: 43.75rem;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.6em;
+	/* letter-spacing: 0.125; */
+	text-align: center;
+ }
