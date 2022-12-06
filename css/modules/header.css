@@ -21,9 +21,9 @@ nav {
 }
 
 .logo {
-	position: relative;
-	top: 0rem;
-	left: -3rem;
+	/* position: relative; */
+	/* top: 0rem; */
+	/* left: -3rem; */
 	font-family:'Courier New', Courier, monospace;
 	font-size: 1.875rem;
 	font-weight: 600;
