@@ -1,0 +1,6 @@
+/* Source for Parallax effect url: https://www.youtube.com/watch?v=TawH-AqHTXc&ab_channel=OnlineTutorials  */
+
+body {
+	background: hsl(206, 74%, 15%);
+	z-index: 10;
+}
