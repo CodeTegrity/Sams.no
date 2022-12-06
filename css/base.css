@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@0;1&display=swap');
 
 
 body {
@@ -7,4 +7,3 @@ body {
 	background: hsl(206, 74%, 15%);
 	min-height: 93.75rem;
 }
-
