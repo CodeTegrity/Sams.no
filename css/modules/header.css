@@ -3,6 +3,7 @@
 	text-align: center;
 	line-height: 2.688rem;
 	background-color: var(--secondary-color);
+	overflow: hidden;
 } 
 
 @media screen and (max-width: 768px) {
