@@ -1,9 +1,9 @@
 .slideshow {
 	position: relative;
-	top: 300px;
+	top: 18.7rem;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 65vw;
+	width: 70vw;
 	height: 70vh;
 	background-color: #ffffff;
 }
@@ -31,9 +31,10 @@
 
 .slideshow__caption {
 	position: absolute;
-	display: flex;
-	justify-content: center;
-	bottom: -5px;
+	top: 30.625rem;
+	left: -0.938rem;
+
+
 	width: 100%;
 	background: #ece1e1;
 	z-index: 10000;
@@ -42,7 +43,6 @@
 
 .slideshow__controls {
 	position: absolute;
-	z-index: 1000000;
 	height: 100%;
 }
 
@@ -52,7 +52,7 @@
 	top: 50%;
 	left: 30em;
 	transform: translateY(-50%);
-	/* z-index: 20000000000; */
+	z-index: 20000;
 }
 
 .slideshow__button-next {	
@@ -60,23 +60,19 @@
 	top: 50%;
 	right: 30em;
 	transform: translateY(-50%);
-	/* z-index: 2000000000000000; */
+	z-index: 20000;
 	
 }
 
-
-
-/***** knapper  *****/
-
 .slideshow__dots {
 	position: relative;
-	top: 14.5em;
+	top: 14em;
 	left: 50%;
 	transform: translateX(-50%);
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	z-index: 600000000;
+	z-index: 60000;
 }
 
 .slideshow__button-dot {

@@ -2,7 +2,6 @@
 
 body {
 	background: hsl(206, 74%, 15%);
-	z-index: 10;
 }
 
 p {
@@ -11,7 +10,7 @@ p {
 	margin-left: auto;
 	padding: 1.875rem;
 	color: #fff;
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	line-height: 1.6em;
 	/* letter-spacing: 0.125; */
@@ -62,7 +61,8 @@ p {
 	height: 100%;
 	background: var(--primary-color);
 	z-index: 10000;
-	mix-blend-mode: color; /* blends with the content of the element's 
+	mix-blend-mode: color; 
+	/* blends with the content of the element's 
 	parent and the element's background. */
  }
 
@@ -78,7 +78,7 @@ p {
 }
 
 #road {
-  z-index: 22;
+  z-index: 20;
   
 }
 

@@ -32,7 +32,7 @@
 .card-header.card-image figure > img {
 	display: block;
 	width: 100%;
-	max-height: 200px;
+	max-height: 12.5rem;
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 	object-position: center;

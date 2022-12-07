@@ -1,9 +1,9 @@
 .toolbar {
 	position: absolute;
-	right: 55px;
-	margin: 10px;
-	min-height: 35px;
-	min-width: 35px;
+	right: 3.438rem;
+	margin: 0.625;
+	min-height: 2.188rem;
+	min-width: 2.188rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,8 +18,8 @@
 
 .toolbar span {
 	position: absolute;
-	width: 5px;
-	height: 5px;
+	width: 0.313rem;
+	height: 0.313rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,8 +32,8 @@
 
 .toolbar.active span {
 	background: rgb(45, 42, 42);
-	width: 45px;
-	height: 45px;
+	width: 2.813rem;
+	height: 2.813rem;
 	transform: translate(calc(60px * var(--x)),calc(60px * var(--y)));
 	transition: transform 0.5s, width 0.5s, height 0.5s;
 	transition-delay: calc(0.1s * var(--i));
