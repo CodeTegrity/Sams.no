@@ -21,7 +21,7 @@
           <ul>
             <li><a href="./explore.html">Hjem</a></li>
             <li><a href="#about-section">Om oss</a></li>
-            <li><a href="#">Top liste</a></li>
+            <li><a href="#">Slideshow</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Kontakt</a></li>
           </ul>
@@ -31,8 +31,10 @@
       </nav>
     </header>
 
+    <!-- The decrement (--) operator decrements (subtracts one from) its operand and returns the value before or after the decrement, depending on where the operator is placed. source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement-->
     <div class="toolbar">
-			<span style="--i:0;--x:-1;--y:0"><ion-icon name="calendar-number-outline"></ion-icon></span>
+      <!-- The prefix -- decrement operator decrements and returns the value "after" decrementing. -->
+			<span style="--i:0;--x:-1;--y:0"><ion-icon name="calendar-number-outline"></ion-icon></span> 
 			<span style="--i:1;--x:1;--y:0"><ion-icon name="calculator-outline"></ion-icon></span>
 			<span style="--i:2;--x:0;--y:-1"><ion-icon name="brush-outline"></ion-icon></span>
 			<span style="--i:3;--x:0;--y:1"><ion-icon name="compass-outline"></ion-icon></span>
@@ -161,7 +163,51 @@
 			<br>
 
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic blanditiis reiciendis quis corporis! Quas placeat architecto dolore culpa? Nam esse harum, doloremque blanditiis magni adipisci saepe autem dolorem? Deleniti et veniam esse. Dolorem dolor aperiam excepturi asperiores ipsum sint quas totam, saepe eaque? Dignissimos nesciunt soluta eius alias, eaque dolore consequuntur numquam reiciendis repellendus similique maxime sed excepturi doloremque unde ratione maiores officia repellat recusandae, quo porro labore adipisci. Quas provident assumenda iusto, consequatur nisi qui neque similique aperiam molestiae a expedita reprehenderit, quos eum. Consequatur a quaerat veritatis ex molestias consectetur magnam, facere totam laboriosam dolor voluptatibus expedita numquam inventore laudantium non cumque dolorum porro distinctio illum. 
-      
+      </p>
+
+      <section class="slideshow"> 
+        <div class="slideshow__controls">
+          <button class="slideshow__button-previous"><box-icon type='solid' name='chevrons-left'></box-icon></button>
+          <button class="slideshow__button-next"><box-icon type='solid' name='chevrons-right'></box-icon></box-icon></button>
+        </div>
+        
+        <div class="slideshow__slides">
+          <figure class="slideshow__slide slideshow__slide--active">
+            <img class="slideshow__img" src="./assets/images/slide1.jpg" alt="">
+            <figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+          </figure>
+  
+          <figure class="slideshow__slide">
+            <img class="slideshow__img" src="./assets/images/slide2.jpg" alt="">
+            <figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+          </figure>
+  
+          <figure class="slideshow__slide">
+            <img class="slideshow__img" src="./assets/images/slide3.png" alt="">
+            <figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+          </figure>
+  
+          <figure class="slideshow__slide">
+            <img class="slideshow__img" src="./assets/images/snille tips.png" alt="">
+            <figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+          </figure>
+  
+          <figure class="slideshow__slide">
+            <img class="slideshow__img" src="./assets/images/zaalando-slide-02.jpg" alt="">
+            <figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+          </figure>
+        </div>
+  
+        <div class="slideshow__dots">
+          <button class="slideshow__button-dot slideshow__button-dot--active"></button>
+          <button class="slideshow__button-dot"></button>
+          <button class="slideshow__button-dot"></button>
+          <button class="slideshow__button-dot"></button>
+          <button class="slideshow__button-dot"></button>
+        </div>
+  
+      </section>
+
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>

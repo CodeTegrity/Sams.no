@@ -6,4 +6,5 @@ body {
 	font-size: 16px;
 	background: hsl(206, 74%, 15%);
 	min-height: 93.75rem;
+	overflow-x: hidden;
 }

@@ -29,6 +29,12 @@
  .sidebar.active {
 	width: 75px;
  }
+
+ .sidebar.active .links-name {
+	display: none;
+	
+ }
+
  
  .sidebar .logo-content .logo {
 	color: rgb(255, 246, 246);
