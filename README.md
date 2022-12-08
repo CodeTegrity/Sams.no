@@ -1,4 +1,4 @@
-This website showcasing webdesign companies and their work. (To be completed)
+This website is showcasing webdesign companies and their work. (To be completed)
 
 Highlight features:
 
