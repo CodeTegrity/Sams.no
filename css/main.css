@@ -3,9 +3,9 @@
 @import './css/base.css';
 
 @import './modules/header.css';
-@import '.modules/mainpage.css';
-@import '.modules/sidebar.css';
-@import '.modules/toolbar.css';
-@import '.modules/slideshow.css';
-@import '.modules/cards.css';
-@import '.modules/explore.css';
+@import './modules/mainpage.css';
+@import './modules/sidebar.css';
+@import './modules/toolbar.css';
+@import './modules/slideshow.css';
+@import './modules/cards.css';
+@import './modules/explore.css';
