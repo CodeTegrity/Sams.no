@@ -8,6 +8,6 @@ export default function() {
 	}      
 	searchButton.onclick = function() {
 		 sidebar.classList.toggle('active');
-  
+		 
 	}
 };
