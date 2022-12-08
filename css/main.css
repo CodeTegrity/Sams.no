@@ -2,7 +2,7 @@
 @import './css/variables.css';
 @import './css/base.css';
 
-@import '/css/modules/header.css';
+@import './modules/header.css';
 @import '/css/modules/mainpage.css';
 @import '/css/modules/sidebar.css';
 @import '/css/modules/toolbar.css';
