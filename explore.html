@@ -1,241 +1,276 @@
 <!DOCTYPE html>
 <html lang="us">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		
-		<title>Sams.no</title>
-		
-		<link rel="stylesheet" href="/css/main.css" />
-		<script type="module" src="/js/main.js"></script>
-		
-		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	</head>
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width">
+			
+			<title>Sams.no</title>
+			
+			<link rel="stylesheet" href="/css/main.css">
+			<script type="module" src="/js/main.js"></script>
+			
+			<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		</head>
 
-	<body>
-		<header class="header">
-			<nav>
-				<a href="/index.html" id="logo__header">Sams.no</a>
-				
-				<menu>
-					<ul>
-						<li><a href="/explore.html">Hjem</a></li>
-						<li><a href="/index.html#timeline">Om oss</a></li>
-						<li><a href="#">Slideshow</a></li>
-						<li><a href="#">Events</a></li>
-						<li><a href="#">Kontakt</a></li>
-					</ul>
-				</menu>
-				
-				<a href="#" class="main-login">Log in</a>
-			</nav>
-		</header>
-		
-		
-		<!-- The decrement (--) operator decrements (subtracts one from) its operand and returns the value before or after the decrement, depending on where the operator is placed. source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement-->
-		<div class="toolbar">
-			<!-- The prefix -- decrement operator decrements and returns the value "after" decrementing. -->
-			<span style="--i:0;--x:-1;--y:0"><ion-icon name="calendar-number-outline"></ion-icon></span> 
-			<span style="--i:1;--x:1;--y:0"><ion-icon name="calculator-outline"></ion-icon></span>
-			<span style="--i:2;--x:0;--y:-1"><ion-icon name="brush-outline"></ion-icon></span>
-			<span style="--i:3;--x:0;--y:1"><ion-icon name="compass-outline"></ion-icon></span>
-			<span style="--i:4;--x:1;--y:1"><ion-icon name="locate-outline"></ion-icon></span>
-			<span style="--i:5;--x:-1;--y:-1"><ion-icon name="american-football-outline"></ion-icon></span>
-			<span style="--i:6;--x:0;--y:0"><ion-icon name="bicycle-outline"></ion-icon></span>
-			<span style="--i:7;--x:-1;--y:1"><ion-icon name="car-outline"></ion-icon></span>
-			<span style="--i:8;--x:1;--y:-1"><ion-icon name="camera-reverse-outline"></ion-icon></span>
-		</div>
-		
-		
-		<section class="slideshow">
-			<div class="slideshow__controls">
-				<button class="slideshow__button-next"><box-icon type='solid' name='chevrons-left'></box-icon></box-icon></button>
-				<button class="slideshow__button-previous"><box-icon type='solid' name='chevrons-right'></box-icon></button>
+		<body>
+			<header class="header">
+				<nav>
+					<a href="/index.html" id="logo__header">Sams.no</a>
+					
+					<menu>
+						<ul>
+							<li><a href="/explore.html">Hjem</a></li>
+							<li><a href="/index.html#timeline">Om oss</a></li>
+							<li><a href="#">Byråer</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Kontakt</a></li>
+						</ul>
+					</menu>
+					
+					<a href="#" class="main-login">Log in</a>
+				</nav>
+			</header>
+			
+			
+			<!-- The decrement (--) operator decrements (subtracts one from) its operand and returns the value before or after the decrement, depending on where the operator is placed. source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement-->
+			<div class="toolbar">
+				<!-- The prefix -- decrement operator decrements and returns the value "after" decrementing. -->
+				<span style="--i:0;--x:-1;--y:0"><ion-icon name="calendar-number-outline"></ion-icon></span> 
+				<span style="--i:1;--x:1;--y:0"><ion-icon name="calculator-outline"></ion-icon></span>
+				<span style="--i:2;--x:0;--y:-1"><ion-icon name="brush-outline"></ion-icon></span>
+				<span style="--i:3;--x:0;--y:1"><ion-icon name="compass-outline"></ion-icon></span>
+				<span style="--i:4;--x:1;--y:1"><ion-icon name="locate-outline"></ion-icon></span>
+				<span style="--i:5;--x:-1;--y:-1"><ion-icon name="american-football-outline"></ion-icon></span>
+				<span style="--i:6;--x:0;--y:0"><ion-icon name="bicycle-outline"></ion-icon></span>
+				<span style="--i:7;--x:-1;--y:1"><ion-icon name="car-outline"></ion-icon></span>
+				<span style="--i:8;--x:1;--y:-1"><ion-icon name="camera-reverse-outline"></ion-icon></span>
 			</div>
 			
 			
-			<div class="slideshow__slides">
-				<figure class="slideshow__slide slideshow__slide--active">
-					<img class="slideshow__img" src="./assets/images/slide1.jpg" alt="">
-					<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
-				</figure>
-				
-				<figure class="slideshow__slide">
-					<img class="slideshow__img" src="./assets/images/slide2.jpg" alt="">
-					<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
-				</figure>
-				
-				<figure class="slideshow__slide">
-					<img class="slideshow__img" src="./assets/images/slide3.jpg" alt="">
-					<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
-				</figure>
-				
-				<figure class="slideshow__slide">
-					<img class="slideshow__img" src="./assets/images/slide4.jpg" alt="">
-					<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
-				</figure>
-				
-				<figure class="slideshow__slide">
-					<img class="slideshow__img" src="./assets/images/zaalando-slide-02.jpg" alt="">
-					<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
-				</figure>
-			</div>
-			
-			
-			<div class="slideshow__dots">
-				<button class="slideshow__button-dot slideshow__button-dot--active"></button>
-				<button class="slideshow__button-dot"></button>
-				<button class="slideshow__button-dot"></button>
-				<button class="slideshow__button-dot"></button>
-				<button class="slideshow__button-dot"></button>
-			</div>
-			
-		</section>
-		
-		<div class="sidebar">
-			<div class="logo-content">
-				<div class="logo">
-					<span class="bx bxl-c-plus-plus"></span>
-					<div class="logo-name">CodeTegrity</div>
+			<section class="slideshow">
+				<div class="slideshow__controls">
+					<button class="slideshow__button-next"><box-icon type='solid' name='chevrons-left'></box-icon></box-icon></button>
+					<button class="slideshow__button-previous"><box-icon type='solid' name='chevrons-right'></box-icon></button>
 				</div>
 				
-				<i class="bx bx-menu" id="button"></i>
-			</div>
-			
-			<ul class="navigation-list">
-				<li>
-					<a href="#">
-						<!-- i is for Icon and not italic. This method might not be industri standard, but it works. Going to change this later on!  -->
-						<i class="bx bx-search"></i>
-						<input type="text" placeholder="Search...">
-					</a>
-					<span class="tooltip">Search</span>
-				</li>
 				
-				<li>
-					<a href="#">
-						<i class="bx bx-grid"></i>
-						<span class="links-name">Dashboard</span>
-					</a>
-					<span class="tooltip tooltip__modifier">Dashboard</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-user' ></i>
-						<span class="links-name">User</span>
-					</a>
-					<span class="tooltip">User</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-chat' ></i>
-						<span class="links-name">Messages</span>
-					</a>
-					<span class="tooltip">Messages</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-pie-chart'></i>
-						<span class="links-name">Analytics</span>
-					</a>
-					<span class="tooltip">Analytics</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-file' ></i>
-						<span class="links-name">File&nbsp;Manager</span>
-					</a>
-					<span class="tooltip">File Manager</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-cart'></i>
-						<span class="links-name">Order</span>
-					</a>
-					<span class="tooltip">Order</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-heart' ></i>
-						<span class="links-name">Saved</span>
-					</a>
-					<span class="tooltip">Saved</span>
-				</li>
-				
-				<li>
-					<a href="#">
-						<i class='bx bx-cog'></i>
-						<span class="links-name">Settings</span>
-					</a>
-					<span class="tooltip">Settings</span>
-				</li>
-			</ul>
-			
-		<div class="profile-content">
-			<div class="profile">
-				<div class="profile-details">
-					<img src="./assets/Images/profile.png" alt="">
+				<div class="slideshow__slides">
+					<figure class="slideshow__slide slideshow__slide--active">
+						<img class="slideshow__img" src="./assets/images/slide1.jpg" alt="">
+						<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+					</figure>
 					
-					<div class="name-job">
-						<div class="name">Darin Hajou</div>
-						<div class="job">Frontend Developer</div>
+					<figure class="slideshow__slide">
+						<img class="slideshow__img" src="./assets/images/slide2.jpg" alt="">
+						<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+					</figure>
+					
+					<figure class="slideshow__slide">
+						<img class="slideshow__img" src="./assets/images/slide3.jpg" alt="">
+						<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+					</figure>
+					
+					<figure class="slideshow__slide">
+						<img class="slideshow__img" src="./assets/images/slide4.jpg" alt="">
+						<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+					</figure>
+					
+					<figure class="slideshow__slide">
+						<img class="slideshow__img" src="./assets/images/slideshow5.jpg" alt="">
+						<figcaption class="slideshow__caption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid!</figcaption>
+					</figure>
+				</div>
+					
+				<div class="slideshow__dots">
+					<button class="slideshow__button-dot slideshow__button-dot--active"></button>
+					<button class="slideshow__button-dot"></button>
+					<button class="slideshow__button-dot"></button>
+					<button class="slideshow__button-dot"></button>
+					<button class="slideshow__button-dot"></button>
+				</div>
+				
+			</section>
+			
+			<div class="sidebar">
+				<div class="logo-content">
+					<div class="logo">
+						<span class="bx bxl-c-plus-plus"></span>
+						<div class="logo-name">CodeTegrity</div>
+					</div>
+					
+					<i class="bx bx-menu" id="button"></i>
+				</div>
+				
+				<ul class="navigation-list">
+					<li>
+						<a href="#">
+							<!-- i is for Icon and not italic. This method might not be industri standard, but it works. Going to change this later on!  -->
+							<i class="bx bx-search"></i>
+							<input type="text" placeholder="Search...">
+						</a>
+						<span class="tooltip">Search</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class="bx bx-grid"></i>
+							<span class="links-name">Dashboard</span>
+						</a>
+						<span class="tooltip tooltip__modifier">Dashboard</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-user' ></i>
+							<span class="links-name">Bruker</span>
+						</a>
+						<span class="tooltip">Bruker</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-chat' ></i>
+							<span class="links-name">Meldinger</span>
+						</a>
+						<span class="tooltip">Meldinger</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-pie-chart'></i>
+							<span class="links-name">Analytics</span>
+						</a>
+						<span class="tooltip">Analytics</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-file' ></i>
+							<span class="links-name">Favoritter</span>
+						</a>
+						<span class="tooltip">Favoritter</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-phone'></i>
+							<span class="links-name">Kontakt</span>
+						</a>
+						<span class="tooltip">Kontakt</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-heart' ></i>
+							<span class="links-name">Lagre</span>
+						</a>
+						<span class="tooltip">Lagre</span>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class='bx bx-cog'></i>
+							<span class="links-name">Instillinger</span>
+						</a>
+						<span class="tooltip">Instillinger</span>
+					</li>
+				</ul>
+				
+				<div class="profile-content">
+					<div class="profile">
+						<div class="profile-details">
+							<img src="./assets/Images/profile.png" alt="">
+							
+							<div class="name-job">
+								<div class="name">Darin Hajou</div>
+								<div class="job">Frontend Developer</div>
+							</div>
+						</div>
+						
+						<i class='bx bxs-log-out' id="log-out"></i>
 					</div>
 				</div>
+			</div>
+			
+			<div class="card-grid">
+				<div class="card card-shadow">
 					
-					<i class='bx bxs-log-out' id="log-out"></i>
+					<figure>
+						<video poster="./assets/images/signifly3.jpg" src="https://player.vimeo.com/progressive_redirect/playback/684674125/rendition/720p?loc=external&signature=2348b68683e4f677e28fe3a563fd6521d5aa671a9c67cba0dd722f8dc64403e4"
+						type="video/mp4" muted class="video"
+						loop style="width: 100%; height: 100%;">
+						</video>
+						<figcaption>Signifly Artwork and Services</figcaption>
+					</figure>
+				
+				<div class="card-header card-image">	
+				</div>	
+				
+				<div class="card-body">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
+				</div>
+				
+				<div class="card-footer">
+					<button class="button">Detaljer</button>
+					<button class="button button-outline">Signifly</button>
 				</div>
 			</div>
-		</div>
-		
-		<div class="card-grid">
+			
 			<div class="card card-shadow">
-				
 				<figure>
-					<video poster="./assets/images/signifly3.jpg" src="https://player.vimeo.com/progressive_redirect/playback/684674125/rendition/720p?loc=external&signature=2348b68683e4f677e28fe3a563fd6521d5aa671a9c67cba0dd722f8dc64403e4"
-					type="video/mp4" muted class="video"
+					<video poster="/assets/images/Skalar.jpg" src="./assets/images/skalar.mp4"  
+					type="video/mp4" muted class="second-video"
 					loop style="width: 100%; height: 100%;">
 					</video>
-					<figcaption>Signifly Artwork and Services</figcaption>
+					<figcaption>Skalar live performance</figcaption>
 				</figure>
 			
-			<div class="card-header card-image">	
-		</div>	
+			<div class="card-header card-image">
+			</div>
 			
-		<div class="card-body">
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
-		</div>
+			<div class="card-body">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
+			</div>
 			
-		<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Signifly</button>
+			<div class="card-footer">
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
-		
+
 		<div class="card card-shadow">
-			<figure>
-				<video poster="./assets/images/skalar-caption.jpg" src="./assets/images/skalar.mp4"  
-				type="video/mp4" muted class="second-video"
-				loop style="width: 100%; height: 100%;">
-				</video>
-				<figcaption>Skalar live performance</figcaption>
-			</figure>
-		
-		<div class="card-header card-image">
+			<div class="card-header card-image">
+				<figure>
+					<img src="./assets/images/Skalar.jpg" alt="">
+					<figcaption>Skalar live performance</figcaption>
+				</figure>
+			</div>
+			
+			<div class="card-body">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
+			</div>
+			
+			<div class="card-footer">
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
+			</div>
 		</div>
-		
-		<div class="card-body">
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
-		</div>
-		
-		<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+
+		<div class="card card-shadow">
+			<div class="card-header card-image">
+				<figure>
+					<img src="/assets/images/Skalar.jpg" alt="">
+					<figcaption>Skalar live performance</figcaption>
+				</figure>
+			</div>
+			
+			<div class="card-body">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
+			</div>
+			
+			<div class="card-footer">
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -252,8 +287,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -270,8 +305,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -288,8 +323,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -306,25 +341,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
-			</div>
-		</div>
-		<div class="card card-shadow">
-			<div class="card-header card-image">
-				<figure>
-					<img src="./assets/images/skalar.jpg" alt="">
-					<figcaption>Skalar live performance</figcaption>
-				</figure>
-			</div>
-			
-			<div class="card-body">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
-			</div>
-			
-			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -341,8 +359,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -359,8 +377,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -377,8 +395,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 
@@ -395,26 +413,8 @@
 			</div>
 			
 			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
-			</div>
-		</div>
-		
-		<div class="card card-shadow">
-			<div class="card-header card-image">
-				<figure>
-					<img src="./assets/images/skalar.jpg" alt="">
-					<figcaption>Skalar live performance</figcaption>
-				</figure>
-			</div>
-			
-			<div class="card-body">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor qui ducimus commodi impedit optio deserunt cumque enim 
-			</div>
-			
-			<div class="card-footer">
-				<button class="btn">Detaljer</button>
-				<button class="btn btn-outline">Skalar</button>
+				<button class="button">Detaljer</button>
+				<button class="button button-outline">Skalar</button>
 			</div>
 		</div>
 

@@ -10,4 +10,4 @@ export default function() {
 		 sidebar.classList.toggle('active');
   
 	}
-}
+};

@@ -1,2 +1,11 @@
-(write one or two sentences about what this project is about)
-(rename the repository to something relevant to the projects content and/or purpose)
+This website showcasing webdesign companies and their work. (To be completed)
+
+Highlight features:
+
+- Parallax effect on the landingpage.
+- Interactive Sidebar menu
+- simple slideshow
+
+Disclaimer
+
+This was made for practice and educational purpose only. 

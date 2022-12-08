@@ -2,6 +2,22 @@
 
 body {
 	background: hsl(206, 74%, 15%);
+	font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+	#about-section {
+		font-size: 12px;
+
+	}
+
+	.highlight {
+		font-size: 12px;
+	}
+	
+	.text {
+		font-size: 12px;
+	}
 }
 
 p {
@@ -51,7 +67,6 @@ p {
  }
 
  /* In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/::after */
-
  section:after {
    content: "";
 	position: absolute;
@@ -66,8 +81,7 @@ p {
 	parent and the element's background. */
  }
 
- 
-#text {
+.text {
   position: relative;
   color: #fff;
   font-weight: 500;
@@ -79,7 +93,6 @@ p {
 
 #road {
   z-index: 20;
-  
 }
 
 .text:hover {

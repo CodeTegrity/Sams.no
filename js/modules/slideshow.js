@@ -15,15 +15,15 @@ export default function() {
 	for (let index = 0; index < buttonDots.length; index += 1) {
 		buttonDots[index].addEventListener('click', event => {
 			handleButtonDotClick(event, index);
-		});
-	}
+		})
+	};
 	
 	/* event handlers */
 	
 	function handleButtonPreviousClick(event) {
 		decreaseCurrentSlideIndex();
 		updateSlideshowHTML();
-	} 
+	};
 	
 	function handleButtonNextClick(event) {
 		increaseCurrentSlideIndex();
@@ -39,12 +39,12 @@ export default function() {
 			updateSlideshowHTML();
 	
 		}
-	}
+	};
 	
 	function handleButtonDotClick(event, index) {
 		changeCurrentSlideIndex(index);
 		updateSlideshowHTML();
-	}
+	};
 	
 	/* variables */
 	let currentSlideIndex = 0;
@@ -57,7 +57,7 @@ export default function() {
 			currentSlideIndex = slideshowSlides.length -1;
 		}
 		// console.log(`go to slide index: ${currentSlideIndex}`);
-	}
+	};
 	
 	// index slide.length-
 	function increaseCurrentSlideIndex() {
@@ -67,11 +67,11 @@ export default function() {
 			currentSlideIndex = 0;
 		}
 		// console.log(`go to slide index: ${currentSlideIndex}`);
-	}
+	};
 	
 	function changeCurrentSlideIndex(index) {
 		currentSlideIndex = index;
-	}
+	};
 	
 	function updateSlideshowHTML() {
 		for (const slide of slideshowSlides) {

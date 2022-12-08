@@ -3,4 +3,4 @@ export default function() {
 	toolbar.onclick = function() {
 		toolbar.classList.toggle('active');
 	}
-}
+};
