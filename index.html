@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="us">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<title>Sams.no</title>
+		
+		<link rel="stylesheet" href="/css/main.css" />
+		<script type="module" src="/js/main.js"></script>
+		
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
 
-    <title>Sams.no</title>
-
-    <link rel="stylesheet" href="/css/main.css" />
-    <script type="module" src="/js/main.js"></script>
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  </head>
-
-  <body>
-    <header class="header">
-      <nav>
-        <a href="/index.html" id="logo__header">Sams.no</a>
-
-        <menu>
-          <ul>
-            <li><a href="./explore.html">Hjem</a></li>
-            <li><a href="#about-section">Om oss</a></li>
-            <li><a href="#">Slideshow</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </menu>
-
-        <a href="#" class="main-login">Log in</a>
-      </nav>
-    </header>
-
-    <!-- The decrement (--) operator decrements (subtracts one from) its operand and returns the value before or after the decrement, depending on where the operator is placed. source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement-->
-    <div class="toolbar">
-      <!-- The prefix -- decrement operator decrements and returns the value "after" decrementing. -->
+	<body>
+		<header class="header">
+			<nav>
+				<a href="/index.html" id="logo__header">Sams.no</a>
+				
+				<menu>
+					<ul>
+						<li><a href="./explore.html">Hjem</a></li>
+						<li><a href="#about-section">Om oss</a></li>
+						<li><a href="#">Slideshow</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Kontakt</a></li>
+					</ul>
+				</menu>
+				
+				<a href="#" class="main-login">Log in</a>
+			</nav>
+		</header>
+		
+		<!-- The decrement (--) operator decrements (subtracts one from) its operand and returns the value before or after the decrement, depending on where the operator is placed. source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement-->
+		<div class="toolbar">
+			<!-- The prefix -- decrement operator decrements and returns the value "after" decrementing. -->
 			<span style="--i:0;--x:-1;--y:0"><ion-icon name="calendar-number-outline"></ion-icon></span> 
 			<span style="--i:1;--x:1;--y:0"><ion-icon name="calculator-outline"></ion-icon></span>
 			<span style="--i:2;--x:0;--y:-1"><ion-icon name="brush-outline"></ion-icon></span>
@@ -44,23 +44,23 @@
 			<span style="--i:7;--x:-1;--y:1"><ion-icon name="car-outline"></ion-icon></span>
 			<span style="--i:8;--x:1;--y:-1"><ion-icon name="camera-reverse-outline"></ion-icon></span>
 		</div>
-
-    <div class="sidebar">
+		
+		<div class="sidebar">
 			<div class="logo-content">
 				<div class="logo">
 					<span class="bx bxl-c-plus-plus"></span>
 					<div class="logo-name">CodeTegrity</div>
 				</div>
-
+				
 				<i class="bx bx-menu" id="button"></i>
 			</div>
-
+			
 			<ul class="navigation-list">
 				<li>
 					<a href="#">
-          <!-- i is for Icon and not italic. This method might not be industri standard, but it works. Going to change this later on!  -->
-					<i class="bx bx-search"></i>
-					<input type="text" placeholder="Search...">
+						<!-- i is for Icon and not italic. This method might not be industri standard, but it works. Going to change this later on!  -->
+						<i class="bx bx-search"></i>
+						<input type="text" placeholder="Search...">
 					</a>
 					<span class="tooltip">Search</span>
 				</li>
@@ -72,7 +72,7 @@
 					</a>
 					<span class="tooltip tooltip__modifier">Dashboard</span>
 				</li>
-
+				
 				<li>
 					<a href="#">
 						<i class='bx bx-user' ></i>
@@ -88,7 +88,7 @@
 					</a>
 					<span class="tooltip">Messages</span>
 				</li>
-
+				
 				<li>
 					<a href="#">
 						<i class='bx bx-pie-chart'></i>
@@ -96,7 +96,7 @@
 					</a>
 					<span class="tooltip">Analytics</span>
 				</li>
-
+				
 				<li>
 					<a href="#">
 						<i class='bx bx-file' ></i>
@@ -112,7 +112,7 @@
 					</a>
 					<span class="tooltip">Order</span>
 				</li>
-
+				
 				<li>
 					<a href="#">
 						<i class='bx bx-heart' ></i>
@@ -134,40 +134,40 @@
 				<div class="profile">
 					<div class="profile-details">
 						<img src="./assets/Images/profile.png" alt="">
-
+						
 						<div class="name-job">
 							<div class="name">Darin Hajou</div>
 							<div class="job">Frontend Developer</div>
 						</div>
 					</div>
-
+					
 					<i class='bx bxs-log-out' id="log-out"></i>
 				</div>
 			</div>
 		</div>
-
-    <section>
+		
+		<section>
 			<img src="/assets/images/background.jpg" id="background">
 			<img src="/assets/images/moon.png" id="moon">
 			<img src="/assets/images/mountain.png" id="mountain">
 			<img src="/assets/images/road.png" id="road">
 			<a href="/explore.html" class="explore-button" id="text">Explore</a>
 		</section>
-
-    <div id="timeline" name="timeline" ...></div>
-      <H2 class="highlight" >OM OSS</H2>
-
-			<p id="about-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptatem, quisquam officiis cum tempora aspernatur, ea non provident repudiandae corporis quod, modi reprehenderit quam numquam. Impedit a rerum, reprehenderit in ipsum veniam! Minus minima magnam necessitatibus esse molestias porro sint sunt aspernatur dolorem odit saepe ex reprehenderit excepturi inventore, accusamus beatae maiores tempora optio quis deleniti voluptas illo, ipsa tempore est! Eligendi vero error nostrum fugiat corrupti quaerat, excepturi ipsa quae quisquam earum eum, a exercitationem aliquid nisi molestias aspernatur quod velit explicabo dicta, repellendus ullam? Quisquam similique tempora quod accusantium nesciunt. Fuga dolores omnis ipsa esse et magni reprehenderit iste eius totam vitae? Aperiam possimus unde sint rerum nisi facere rem dolore deleniti tenetur! Enim, iure corporis minima laborum voluptates inventore.
-
+		
+		<div id="timeline" name="timeline" ...></div>
+		<H2 class="highlight" >OM OSS</H2>
+		
+		<p id="about-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptatem, quisquam officiis cum tempora aspernatur, ea non provident repudiandae corporis quod, modi reprehenderit quam numquam. Impedit a rerum, reprehenderit in ipsum veniam! Minus minima magnam necessitatibus esse molestias porro sint sunt aspernatur dolorem odit saepe ex reprehenderit excepturi inventore, accusamus beatae maiores tempora optio quis deleniti voluptas illo, ipsa tempore est! Eligendi vero error nostrum fugiat corrupti quaerat, excepturi ipsa quae quisquam earum eum, a exercitationem aliquid nisi molestias aspernatur quod velit explicabo dicta, repellendus ullam? Quisquam similique tempora quod accusantium nesciunt. Fuga dolores omnis ipsa esse et magni reprehenderit iste eius totam vitae? Aperiam possimus unde sint rerum nisi facere rem dolore deleniti tenetur! Enim, iure corporis minima laborum voluptates inventore.
+			
 			<br>
 			<br>
 			<br>
-
+			
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore hic blanditiis reiciendis quis corporis! Quas placeat architecto dolore culpa? Nam esse harum, doloremque blanditiis magni adipisci saepe autem dolorem? Deleniti et veniam esse. Dolorem dolor aperiam excepturi asperiores ipsum sint quas totam, saepe eaque? Dignissimos nesciunt soluta eius alias, eaque dolore consequuntur numquam reiciendis repellendus similique maxime sed excepturi doloremque unde ratione maiores officia repellat recusandae, quo porro labore adipisci. Quas provident assumenda iusto, consequatur nisi qui neque similique aperiam molestiae a expedita reprehenderit, quos eum. Consequatur a quaerat veritatis ex molestias consectetur magnam, facere totam laboriosam dolor voluptatibus expedita numquam inventore laudantium non cumque dolorum porro distinctio illum. 
-      </p>
-
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  </body>
+		</p>
+		
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	</body>
 </html>
