@@ -1,6 +1,6 @@
-@import './css/reset.css';
-@import './css/variables.css';
-@import './css/base.css';
+@import '/css/reset.css';
+@import '/css/variables.css';
+@import '/css/base.css';
 
 @import './modules/header.css';
 @import './modules/mainpage.css';
