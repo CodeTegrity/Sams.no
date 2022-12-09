@@ -1,8 +1,8 @@
-import Mainpage from './js/modules/mainpage';
-import Sidebar from './modules/sidebar.js';
-import Toolbar from './modules/toolbar.js';
-import Slideshow from './modules/slideshow.js';
-import Cards from './modules/cards.js';
+import Mainpage from '../js/modules/mainpage.js';
+import Sidebar from '../js/modules/sidebar.js';
+import Toolbar from '../js/modules/toolbar.js';
+import Slideshow from '../js/modules/slideshow.js';
+import Cards from '../js/modules/cards.js';
 
 Mainpage();
 Sidebar();
