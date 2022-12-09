@@ -1,4 +1,4 @@
-import Mainpage from '../modules/mainpage.js';
+import Mainpage from './modules/mainpage.js';
 
 
 Mainpage();
