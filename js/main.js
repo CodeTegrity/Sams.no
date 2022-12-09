@@ -1,4 +1,4 @@
-import Mainpage from '../js/modules/mainpage';
+import Mainpage from './js/modules/mainpage';
 import Sidebar from './modules/sidebar.js';
 import Toolbar from './modules/toolbar.js';
 import Slideshow from './modules/slideshow.js';
